@@ -17,7 +17,7 @@
       {
         "status" : "ok"
       },
-      "file":"login_response.json"
+      "file":"response/login_response.json"
     }
   } 
 ],
@@ -43,7 +43,7 @@
       {
         "token":"asdgfhh32456asfgrsfss"
       },
-      "file":"parkinside_response.json"
+      "file":"response/parkinside_response.json"
     }
   }
 ]
