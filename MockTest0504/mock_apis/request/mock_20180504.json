@@ -1,0 +1,49 @@
+[
+  {
+    "request":
+    {
+      "method":"post",
+      "uri":"/login",
+      "json":
+      {
+        "username":"admin",
+        "password":"admin",
+        "roleID":22
+      }
+    },
+    "response":
+    {
+      "headers":
+      {
+        "status" : "ok"
+      },
+      "file":"login_response.json"
+    }
+  } 
+],
+[ 
+  {
+    "request":
+    {
+      "method":"post",
+      "uri":"/parkinside",
+      "headers":
+      {
+        "token":"asdgfhh32456asfgrsfss",
+        "Content-type" : "application/json"
+      },
+      "json":
+      {
+        "vpl":"AJ3585"
+      }
+    },
+    "response":
+    {
+      "headers":
+      {
+        "token":"asdgfhh32456asfgrsfss"
+      },
+      "file":"parkinside_response.json"
+    }
+  }
+]
