@@ -1,0 +1,19 @@
+[
+	{
+		"request":
+		{
+			"a":1,
+			"b":0.45234,
+			"c":"o0odw32",
+			"header":{
+"cookie":"hudhf878huhdufh",
+"sd":"9jj"
+},
+			"dddd":{"jks":"hudhus"}
+		},
+		"response":
+		{
+			"file":"response/login_response.json"
+		}
+	}
+]
