@@ -1,0 +1,16 @@
+[
+	{
+		"request":
+		{
+			"method":"post",
+			"uri":"/parkinside",
+			"headers":{"token":"asdgfhh32456asfgrsfss","Content-type":"application/json"},
+			"json":{"vpl":"AJ3585"}
+		},
+		"response":
+		{
+			"headers":{"token":"asdgfhh32456asfgrsfss"},
+			"file":"response/parkinside_response.json"
+		}
+	}
+]

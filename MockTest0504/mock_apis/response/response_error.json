@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
  {
  "status":"fail",
@@ -5,4 +6,13 @@
  "error_message":"信息错误",
  "data":{}
  }
+=======
+[
+ {
+ "status":"fail",
+ "status_code":"001",
+ "error_message":"信息错误",
+ "data":{}
+ }
+>>>>>>> 同步本地文件2020/10/16 14:17
 ]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "request":
@@ -46,4 +47,54 @@
       "file":"response/parkinside_response.json"
     }
   }
+=======
+[
+  {
+    "request":
+    {
+      "method":"post",
+      "uri":"/login",
+      "json":
+      {
+        "username":"admin",
+        "password":"admin",
+        "roleID":22
+      }
+    },
+    "response":
+    {
+      "headers":
+      {
+        "status" : "ok"
+      },
+      "file":"./response/login_response.json"
+    }
+  } 
+],
+[ 
+  {
+    "request":
+    {
+      "method":"post",
+      "uri":"/parkinside",
+      "headers":
+      {
+        "token":"asdgfhh32456asfgrsfss",
+        "Content-type" : "application/json"
+      },
+      "json":
+      {
+        "vpl":"AJ3585"
+      }
+    },
+    "response":
+    {
+      "headers":
+      {
+        "token":"asdgfhh32456asfgrsfss"
+      },
+      "file":"./response/parkinside_response.json"
+    }
+  }
+>>>>>>> 同步本地文件2020/10/16 14:17
 ]

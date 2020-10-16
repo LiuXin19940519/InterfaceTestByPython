@@ -1,0 +1,15 @@
+[
+	{
+		"request":
+		{
+			"method":"post",
+			"uri":"/login",
+			"json":{"username":"admin","password":"admin","roleID":22}
+		},
+		"response":
+		{
+			"headers":{"status":"ok"},
+			"file":"response/login_response.json"
+		}
+	}
+]
